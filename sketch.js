@@ -91,7 +91,6 @@ function draw() {
     spawnClouds();
     spawnObstacles();
 
-    camera.position.x = trex.x;
     camera.position.y = trex.y;
   
     if(obstaclesGroup.isTouching(trex)){
